@@ -2,17 +2,21 @@ body {
     margin: 0;
     background-color: #444;
 }
-h1 {
-    height: 100vh;
+.profile {
     display: flex;
-    color: white;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    flex-flow: column;
+}
+h1 {
+    color: white;
     font-size: 5em;
     font-family: sans-serif;
     text-shadow: 0 0 20px black;
 }
 img {
-    width: 200px;
-    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0 0 20px black;
+    width: 300px;
 }
